@@ -1,0 +1,16 @@
+﻿@model DesignPattern.Facade.DAL.Order
+
+@{
+    ViewData["Title"] = "OrderStart";
+    Layout = "~/Views/Shared/_FacadeLayout.cshtml";
+}
+
+
+<h1>Sipariş detay Sayfası</h1>
+
+<form method="post">
+    <label>Müşteri ID</label>
+    <input type="text" asp-for="CustomerID" class="form-control" />
+    <br />
+    <button class="btn btn-warning">Sipariş Oluştur</button>
+</form>

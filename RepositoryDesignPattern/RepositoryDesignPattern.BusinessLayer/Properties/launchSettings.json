@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "RepositoryDesignPattern.BusinessLayer": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:50276;http://localhost:50277"
+    }
+  }
+}
